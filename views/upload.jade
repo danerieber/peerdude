@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  form#uploadform(enctype="multipart/form-data", method="post", action="#")
+    input#fileupload(name="myfile", type="file")
+    input#submit(type="submit", value="submit")

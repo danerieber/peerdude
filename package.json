@@ -1,0 +1,22 @@
+{
+  "name": "peerdude",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "rm -rf ./uploads/* && node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.4"
+  },
+  "description": "A quick way to send files to your friends",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Dane Rieber",
+  "license": "ISC"
+}

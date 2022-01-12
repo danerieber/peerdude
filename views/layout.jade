@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    if locals.title
+      title= title
+    else
+      title Error
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content

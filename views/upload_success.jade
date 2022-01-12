@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  p Download using file id: #{fileid}
+  p or using the following link: 
+    a(href="/download/#{fileid}") copy me

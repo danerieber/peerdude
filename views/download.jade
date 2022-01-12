@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  form#downloadform(action="#", method="post")
+    input#fileid(type="text", name="fileid")
+    input#submit(type="submit", value="Download")
